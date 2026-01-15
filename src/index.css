@@ -29,15 +29,26 @@ a:hover {
   background-color: #5A6650;
 }
 
-.nav-link {
-  color: #a14d1a;
-  text-decoration: none;
-  margin-right: 10px;
-  font-weight: bold;
+nav a:hover {
+  flex: 0.5;
+  transition: 0.5s;
+}
+
+nav {
+  margin:  2px 50px 2px 50px;
   border-radius: 8px;
   border: 4px;
   background-color: #FFFFFC;
   padding: 0.3rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+nav a {
+  color: #a14d1a;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .rounded-image {
